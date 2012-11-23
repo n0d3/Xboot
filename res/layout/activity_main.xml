@@ -1,10 +1,10 @@
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/MyColor"     
     android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
+    android:background="@color/Gray"
     tools:context=".MainActivity" >
 
      	<TableRow
@@ -19,7 +19,7 @@
      	        android:layout_height="match_parent"
      	        android:text="@string/textview2"
      	        android:textAppearance="?android:attr/textAppearanceSmall"
-     	        android:textColor="@color/White" />
+     	        android:textColor="@color/MyColor" />
      	    
         </TableRow>
         
@@ -131,7 +131,7 @@
                 android:layout_height="match_parent"
                 android:text="@string/textview1"
                 android:textAppearance="?android:attr/textAppearanceSmall"
-                android:textColor="@color/White" />
+                android:textColor="@color/MyColor" />
 
         </TableRow>
 
@@ -153,13 +153,15 @@
                 android:id="@+id/spinner2"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/spinner_background_holo_light" />
             
             <Spinner
                 android:id="@+id/spinner1"
                 android:layout_width="0px"
                 android:layout_height="wrap_content"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:background="@drawable/spinner_background_holo_light" />
             
         </TableRow>
 

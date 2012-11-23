@@ -2,7 +2,7 @@
 
     <string name="app_name">Xboot</string>
     <string name="menu_settings">Enter cLK menu</string>
-    <string name="title_activity_main">Xboot</string><string name="title_activity_helper">Flashing kernel image to selected boot partition</string>
+    <string name="title_activity_main">Xboot</string><string name="title_activity_helper">Flashing kernel image</string>
     <string name="button1">boot</string>
     <string name="button2">sboot</string>
     <string name="button3">tboot</string>
@@ -16,20 +16,11 @@
     <string name="menu_item_3">Soft reset</string><string name="menu_item_4" >Exit</string>
     <string name="textview1">FLASH AID-KIT: Flash Rom\'s kernel to partition</string><string name="textview2">BOOT MANAGER: Select reboot mode</string><color name="MyColor">#0F0F0F</color>
     
-    <string name="Info">Boot Manager for Black cLK\n\nSimply select the boot partition*\nfrom which cLK will load the kernel**\nafter rebooting device.\n\n*Boot partition must exist in ptable.\n**Kernel must have been flashed\n to the selected boot partition</string>
-    <string-array name="xBoot_array">
-        <item >boot</item>
-        <item >sboot</item>
-        <item >tboot</item>
-        <item >vboot</item>
-        <item >wboot</item>
-        <item >xboot</item>
-        <item >yboot</item>
-        <item >zboot</item>
-    </string-array>
+    <color name="Gray">#C9C5C7</color><color name="White">#FFFFFF</color><string name="Info">Boot Manager for Black cLK\n\nSimply select the boot partition*\nfrom which cLK will load the kernel**\nafter rebooting device.\n\n*Boot partition must exist in ptable.\n**Kernel must have been flashed\n to the selected boot partition\n</string>
     
     
-    <color name="White">#FFFFFF</color>
+    
+    
     
     
     

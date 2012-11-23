@@ -5,7 +5,7 @@
 			<attribute name="javadoc_location" value="file:/C:/projects/eclipse/RootTools/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="com/clk/xboot/OnRomSelectedListener.java|com/clk/xboot/OnXbootSelectedListener.java" kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
