@@ -84,7 +84,7 @@ public final class R {
         public static final int mkbootimg=0x7f040001;
     }
     public static final class string {
-        public static final int Info=0x7f060014;
+        public static final int Info=0x7f060015;
         public static final int app_name=0x7f060000;
         public static final int button1=0x7f060004;
         public static final int button2=0x7f060005;
@@ -100,9 +100,10 @@ public final class R {
         public static final int menu_item_2=0x7f06000f;
         public static final int menu_item_3=0x7f060010;
         public static final int menu_item_4=0x7f060011;
+        public static final int menu_item_5=0x7f060012;
         public static final int menu_settings=0x7f060001;
-        public static final int textview1=0x7f060012;
-        public static final int textview2=0x7f060013;
+        public static final int textview1=0x7f060013;
+        public static final int textview2=0x7f060014;
         public static final int title_activity_helper=0x7f060003;
         public static final int title_activity_main=0x7f060002;
     }

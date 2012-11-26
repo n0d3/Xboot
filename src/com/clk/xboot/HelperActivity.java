@@ -17,7 +17,8 @@ import android.os.Handler;
 import android.widget.TextView;
 
 public class HelperActivity extends Activity {
-    @Override
+    @SuppressLint("NewApi")
+	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.helper);
@@ -28,12 +29,13 @@ public class HelperActivity extends Activity {
         String fi_cmd = (String) getIntent().getExtras().get("flash_imageCMD");
         String img = (String) getIntent().getExtras().get("img_file");
         
-        File sdcard = new File(Environment.getExternalStorageDirectory().getPath());
-        File img_file = new File(sdcard.getAbsolutePath() + "/NativeSD/" + img + ".img");
-        if (img_file.exists()) {
-        	img_file.delete();
+        if (!img.isEmpty()) {
+	        File sdcard = new File(Environment.getExternalStorageDirectory().getPath());
+	        File img_file = new File(sdcard.getAbsolutePath() + "/NativeSD/" + img + ".img");
+	        if (img_file.exists()) {
+	        	img_file.delete();
+	        }
         }
-        
         Command combo_command = new Command(0, mkb_cmd, fi_cmd) {
 	        @SuppressLint("NewApi")
 			@Override
